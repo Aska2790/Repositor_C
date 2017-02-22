@@ -19,6 +19,9 @@
 #include <string.h> // для работы strlen()
 #include <ctype.h>  // библиотека функций isaplha(), isupper(), islower() 
 
+const int  NUMBERLETTER = 26;   
+
+
 //==============================================================================
 // прототипы функций
 int GetKey          ( string argv[]);   // преобразование ключа из строки в целочисленную переменную  
@@ -66,10 +69,10 @@ string CaesarShifr(int keys)
         if (isalpha(temp[i])){
             
             if (isupper(temp[i]))                       // если вводимые символы будут пропис то
-                temp[i] = ((temp[i]-65 + keys) % 26) + 65;
+                temp[i] = ((temp[i]-'A' + keys) % NUMBERLETTER) + 'A';
                 
             if (islower(temp[i]))                       // если вводимые символы будут строчными то
-                temp[i] =(( temp[i]-97 + keys )% 26) + 97;
+                temp[i] =(( temp[i]-'a' + keys )% NUMBERLETTER) + 'a';
         }     
     }
     return temp;                                        // возращает зашифрованную строку
