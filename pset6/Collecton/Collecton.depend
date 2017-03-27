@@ -1,0 +1,29 @@
+# depslib dependency file v1.0
+1490625157 source:e:\googledisk\programs and modules\program listings\cs50\collecton\main.cpp
+	<iostream>
+	"HashMap.h"
+
+1490625157 e:\googledisk\programs and modules\program listings\cs50\collecton\include\hashmap.h
+	<string>
+	"Node.h"
+
+1490625157 e:\googledisk\programs and modules\program listings\cs50\collecton\include\node.h
+	<string>
+
+1490625157 source:e:\googledisk\programs and modules\program listings\cs50\collecton\src\node.cpp
+	"Node.h"
+	<string>
+	<iostream>
+
+1490626232 source:e:\googledisk\programs and modules\program listings\cs50\collecton\src\arraylist.cpp
+	"ArrayList.h"
+	<iostream>
+
+1490626198 e:\googledisk\programs and modules\program listings\cs50\collecton\include\arraylist.h
+
+1490625512 source:e:\googledisk\programs and modules\program listings\cs50\collecton\src\hashmap.cpp
+	"HashMap.h"
+	"Node.h"
+	<string>
+	<iostream>
+
